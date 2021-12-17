@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web form</title>
+</head>
+<body style="background-color: cornsilk;">
+    
+    <form >
+
+    <!--search-->
+        <div style="text-align:center;">
+            <label>search</label>
+            
+            <input type="search" name="search">
+            <img src="image\OIP.jpg" style="float: right; width: 250; height: 200;">
+        </div>
+        <br><br>
+         
+    <!--password-->
+        <h1 style="text-align:center;">login</h1>
+    
+        <div>
+            <label>Username</label>
+            <input type="text" name="username">
+           
+        </div>
+            
+            <br>
+        <div>
+            <label>Password</label>
+            <input type="text" name="password">
+        </div>
+            
+            <br>
+        <div>
+        <!--submit-->   
+            <input type="submit" value="login">
+
+        </div>
+        <br>     
+        <hr>
+
+        <h2 style="text-align:center;">Registration Form</h2>
+    <!--input type text-->
+        <p>fill this form correctly and where ever * is present its manditaory to fill  </form></p>    
+        <div>
+            <label>FirstName *</label>
+            <input type="text" name="Fname">
+        </div>
+        <br>
+        <div>
+            <label>LastName *</label>
+            <input type="text" name="Lname">
+        </div>
+        <br>
+        
+    <!--email-->
+        <div>
+            <label>email id *</label>
+            <input type="text" name="email">
+        </div>
+        <br>
+    <!--radio tag-->
+        <div>
+            <h4>Gender *</h4>
+            <input type="radio" name="gender" value="Male">
+            <label>Male</label>
+            <input type="radio" name="gender" value="Female">
+            <label>Female</label>
+            <input type="radio" name="gender" value="Other">
+            <label>Other</label>
+        </div>
+        <br>
+    <!--input type datetime-local-->
+        <div>
+            <label>DOB *</label>
+            <input type="datetime-local" name="dob" value="dob">
+        </div>
+        <br><br>
+
+    <!--inpyt type tel -->
+        <div>
+            <label>Phone no</label>
+            <input type="tel" name="phone no" pattern="[0-9] {3}-[0-9] {2}-[0-9] {3}"required>
+        </div>
+        <br>
+    
+        </div>
+        <br>
+    <!--file tag-->
+        <div>
+            <label>10th Percentage *</label>
+            <input type="text" name="Percentage" value="">
+
+            <br><br>
+
+            <label>Add 10th marks card *</label><br>
+            <input type="file" name="Add File">
+
+        </div>
+        <br><br>
+    
+        <div>
+            <label>Degree Qualification</label>
+            <select name="">
+                <option value=""></option>
+                <option value="B.E/B.tech">B.E/B.tech</option>
+                <option value="Mtech">Mtech</option>
+                
+            </select>
+
+
+        </div>  
+        <br><br> 
+
+        <div>
+            <label>Degree Stream</label>
+            <select name="degree  stream">
+                <option value=""></option>
+                <option value="CSE">CSE</option>
+                <option value="EEE">EEE</option>
+                <option value="EC">EC</option>
+            </select>
+        </div> 
+        <br><br> 
+
+    <!--input type hidden-->
+        <div>
+        <input type="hidden" name="Degree USN" value="202125">
+        </div> 
+        
+    <!--number-->
+        
+        <div>
+            <label>Degree cgpa out of scale 10 *</label>
+            <input type="number" name="degree cgpa" min="1" max="10">
+
+            <br><br>
+    <!--file-->
+
+            <label>Add degree certificate *</label><br>
+            <input type="file" name="Add File">
+
+        </div>
+        <br><br>
+    
+
+        <!--checkbox-->
+        <div>
+            <label>Are you interested to learn web development?</label><br>
+            <label>Yes</label>
+            <input type="checkbox" name="yes" value="yes">
+            <label>No</label>
+            <input type="checkbox" name="no" value="no">
+
+        </div>
+        <br><br>
+
+        <!--color-->  
+        <div>
+            
+            <label>what is your favourite color?</label><br>
+            <input type="color" name="favourite color" value="#ff0000">
+            
+        </div>  
+        <br><br>
+
+    <!--Time-->
+        <div>
+            <label for="appt">Select Time</label><br>
+            <input type="time" name="appt">
+        </div>
+        <br><br>
+        
+    <!--url-->
+        <div>
+            <label>Enter git url:</label><br>
+            <input type="url" name="git url">
+        </div>
+        <br><br>
+
+    <!--Date-->
+
+    <div>
+        <label>select the date</label><br><br>
+        <input type="date" name="date">
+    </div>
+    <br><br>
+    
+    <!--week-->
+
+        <div>
+            <label>Select week</label><br><br>
+            <input type="week" name="week">
+        </div>
+        <br><br>
+
+    <!--Month-->
+
+        <div>
+            <label>Select month</label><br><br>
+            <input type="month" name="month">
+        </div>
+    <br><br>
+
+    <!--Range-->
+        <div>
+            <label>Rate your web development skill</label>
+            <input type="range" name="Rate" min="0" max="100">
+            
+        </div>
+        <br><br>
+    <!--Button, Submit,and Reset Tag--> 
+        <div>
+            <input type="button" onclick="alert('your application is saved and submit the details by pressing submit')" value="save">
+            <input type="submit" name="submit">
+            <input type="reset">
+        
+          
+        </div>
+
+    </form>
+    
+</body>
+</html>
