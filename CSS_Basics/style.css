@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+
+
+
+body{
+    background-color: #fcc7e4f9 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color: rgb(186, 189, 12);
+    padding: 1px;
+    
+    
+}
+
+
+h1{
+    color: rgba(233, 140, 19, 0.97);
+
+}
+
+
+ .container h3
+{
+    background-color: rgb(0, 0, 0);
+    color: blueviolet;
+    padding: 1%;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 0.8em;
+    
+
+}
+p{
+    color: rgba(131, 7, 7, 0.97);
+    font-family: 'Imperial Script', Helvetica, sans-serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 1.6em;
+
+}
+
+#second-p{
+    color: rgb(78, 14, 3);
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 1rem;
+    font-weight: 800;
+
+}
+
+
+#box-model{
+    background-color: rgb(9, 49, 122);
+    width: 300px;
+    border: 15px solid black;
+    padding: 50px;
+    /*margin: 20px;*/
+    /*margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;*/
+
+    /*margin: 5px 10px 5px 10px;*/
+    margin: 5px 10px;
+}
+
+.categories{
+
+    border: 1px solid rgb(141, 96, 12);
+    padding: 2px;
+    border-radius: 15px; 
+}
+.categories h2{
+    text-align: center;
+
+}
+.categories ul{
+    padding: 0;
+    list-style: none;
+}
+.categories a:hover{
+    text-decoration: underline;
+    color: rgb(58, 4, 29);
+}
+
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: 1px dotted #333;
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.button:hover{
+    background: slategray;
+    cursor: pointer;
+}
