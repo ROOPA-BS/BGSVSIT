@@ -1,0 +1,169 @@
+body{
+    
+   /* #80ff00	rgb(128, 255, 0)	hsl(90, 100%, 50%)*/
+   background-color: #fcc7e4f9;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.container{
+    background-color: rgb(170, 72, 15);
+    font-family: Arial, Helvetica, sans-serif;
+    /*font-style: italic;*/
+    font-size: 20px;
+    padding: 20px;
+
+}
+
+.container h1{
+    color: rgb(6, 85, 165);
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(17, 143, 80);
+
+}
+
+
+p{
+    color: rgba(23, 49, 2, 0.97);
+    font-family: 'Imperial Script', Helvetica, sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 1.1em
+
+}
+
+h1{
+    color: rgb(9, 116, 107);
+}
+
+#second-p{
+    color: rgb(78, 14, 3);
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 1rem;
+    font-weight: 800;
+    padding: 10px;
+
+}
+
+.categories{
+
+    border: 10px solid rgb(32, 32, 32);
+    padding: 2px;
+    border-radius: 15px; 
+}
+.categories h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(131, 78, 9);
+    
+
+}
+.categories ul{
+    padding: 0;
+    list-style: none;
+    
+}
+.categories a:hover{
+    text-decoration: underline;
+    color: rgb(124, 23, 70);
+}
+.categories a{
+    color: rgb(10, 75, 31);
+}
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: 1px ridge rgba(42, 5, 204, 0.897);
+    font-weight: 800;
+    
+    
+}
+
+#box-model{
+    background-color: rgb(9, 49, 122);
+    width: 1200px;
+    border: 10px solid black;
+    
+    padding: 50px;
+   
+    margin: 5px 10px;
+}
+
+#box-model p{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    color: sandybrown;
+    font-weight: 600;
+}
+
+
+
+#box-model select {
+    color:rgb(121, 41, 10);
+    font-size: 16px;
+    text-transform: capitalize;
+    
+    
+}
+
+#box-model select:hover {
+    color:rgb(6, 87, 10);
+       
+    
+}
+
+
+
+#box-model label{
+    font-size: 17px;
+    color: rgb(197, 211, 9);
+    text-transform: capitalize;
+    font-weight: 800;
+    
+}
+
+
+
+
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 50%;
+    border: 3px solid black;
+    border-radius: 6px;
+    
+}
+
+.button:hover{
+    background: rgb(9, 88, 168);
+    cursor: pointer;
+}
+
+ 
+
+.button{
+    border-radius: 8px;
+    border-color: black;
+    color: black;
+    font-size: 17px;
+    text-transform: capitalize;
+    padding: 5px;
+    background-color: gray;
+
+}
