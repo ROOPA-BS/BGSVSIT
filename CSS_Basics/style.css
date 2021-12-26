@@ -113,3 +113,45 @@ p{
     background: slategray;
     cursor: pointer;
 }
+
+
+
+
+#postion-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+    background-image: ;
+    background-repeat: ;
+    background-size: cover;
+
+
+
+}
+
+.fixed-button{
+    position: fixed;
+    top: 20px;
+
+}
+
+.my-list li:nth-child(5)
+{
+    background: yellowgreen;
+}
+
+.dynamic-list li:nth-child(even)
+{
+    background: blue;
+}
+
+.my-list li:nth-child(odd)
+{
+    background: green;
+}
+
+
+
+
+

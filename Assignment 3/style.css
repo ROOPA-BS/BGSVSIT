@@ -1,0 +1,271 @@
+body{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.5em;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(238, 241, 241);
+
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+    
+
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: crimson;
+    color: darkolivegreen;
+    min-height: 80px;
+    padding-top: 30px;
+    border-bottom: 3px solid rgb(243, 221, 20);
+}
+header a{
+    color: rgb(24, 66, 24);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+    
+
+header li{
+    display: inline;
+    padding: 0px 20px;
+    
+}
+header .branding{
+    float: left;
+}
+
+header nav{
+    float: right;
+    margin-top: 20px;
+}
+
+header .highlight{
+    
+    font-weight: bold;
+
+}
+
+header a:hover{
+    color: rgb(243, 221, 20);
+    font-weight: bold;
+}
+
+
+#showcase{
+    min-height: 500px;
+    background: url("./image/poor child.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -500px;
+    text-align: center;
+
+
+    
+}
+
+#showcase h1{
+    font-size: 40px;
+    margin-top: 0%;
+    position: relative;
+    top: 30px;
+    color: blanchedalmond;
+    
+    
+}
+
+#boxes{
+    margin-top:20px;
+}
+
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: black;
+    background: #ffc600;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.second{
+    margin: auto;
+    padding: 0;
+}
+
+.second h1{
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: tomato;
+    color: rebeccapurple;
+    font-size: 20px;
+    padding-top: 200px;
+    font-style: italic;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+
+#demo{
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 5px solid black;
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    margin-top: 200px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+#demo h1{
+    color: chocolate;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+#demo label{
+    color:black;
+    font-weight: 800;
+    font-size: 17px;
+    font-style: italic;
+    text-transform: capitalize;
+
+}
+
+#demo button{
+    font-style: italic;
+    font-weight: 800;
+    color: black;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    padding-right: 0px;
+    margin-right: 0px;
+
+    
+}
+#main{
+    background-color: rgb(196, 125, 34);
+}
+
+#main-col{
+    float: left;
+    width: 65%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.dark{
+    padding: 15px;
+    background: #35424a;
+    color: lightcoral;
+    margin-top: 10px;
+}
+
+.light{
+    padding: 15px;
+    background: #046f8a;
+    color: rgba(13, 14, 13, 0.856);
+    margin-top: 10px;
+}
+
+#main h1{
+    font-size: 17px;
+    text-transform: capitalize;
+    font-family: italic;
+}
+
+#services li{
+    list-style: none;
+    padding: 10px;
+    border: 5px solid #ccc;
+    margin-bottom: 5px;
+    background: #e5f0fa;
+
+}
+
+#services li h1{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+#services li p1{
+    font-family: italic;
+
+    
+}
+
+.back_img img{
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+    margin: 0px;
+}
+
+#sidebar h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    
+
+}
+
+
+
+#sidebar .quote input[type="text"], .quote input[type="email"], .quote textarea{
+    padding: 8px;
+    width: 50%;
+    border: 3px solid black;
+    border-radius: 6px;
+    
+
+    
+}
+
+.button{
+    background-color: #35424a;
+    color: rgb(243, 14, 52);
+    font-size: 16px;
+    color: black;
+    text-transform: capitalize;
+    padding: 5px;
+    border-color: black;
+
+
+
+}
+
+button:hover{
+    background: rgb(226, 230, 12);
+    cursor: pointer;
+}
+

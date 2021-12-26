@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var regUsername= Document.getElementById("demo");
+        
+        function emailValidate()
+        {
+            try{
+                if(regUsername==('[a-z0-9]+@[a-z]+\.[a-z]')
+                {
+                    
+                   return regUsername;
+
+                }
+                else{
+                    alert("you have entered wrong email address!");
+                    
+                }
+
+            }
+            catch(err)
+            {
+                Document.getElementById("demo").innerHtml=err;
+                    
+            }
+            
+           
+        }
+    </script>
+    
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <header>
+        <div calss="container">
+            <div class="branding">
+                <h1><span class="highlight">Feed</span>The Needy</h1>
+            </div>
+
+            <nav>
+                <ul>
+                   <li><a href="home.html">Home</a></li>
+                   <li><a href="about.html">About</a></li>
+                   <li><a href="login.html">Login</a></li>
+                   <li><a href="services.html">Services</a></li>
+                   
+                </ul>
+
+            </nav>
+
+            
+
+            
+           
+        </div>
+
+            
+    </header>
+
+        <div class="back_img">
+                <img src="./image/help others.jpg">
+        </div>
+            
+    
+    <form>
+        <div id="demo">
+            <h1>login</h1>
+            <label>UserName:</label><br>
+            <input type="text" name="username" pattern="[a-z0-9]+@+[a-z0-9]+\.[a-z]"required><br><br>
+            <label>Password:</label><br>
+            <input type="password" name="password" placeholder="Abc@123" pattern="[A-Z]+@||&||$+[0-9]"required>
+            <br><br>
+            
+            
+            <button type="button" onclick="emailValidate()">Submit</button>
+    
+    
+            <button type="button" onclick="alert('clear all')">Cancel</button>
+    
+        </div>
+    </form>
+    <footer><p>Feed The Neddy Copyright@2021</p></footer>
+    
+    
+</body>
+</html>
