@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     
     background-repeat: no-repeat;
@@ -62,12 +66,13 @@ header a:hover{
 
 
 #showcase{
-    min-height: 500px;
+    min-height: 450px;
     background: url("./image/poor child.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 -500px;
     text-align: center;
+    
 
 
     
@@ -84,7 +89,7 @@ header a:hover{
 }
 
 #boxes{
-    margin-top:20px;
+    margin-top:10px;
 }
 
 #boxes .box{
@@ -132,10 +137,10 @@ footer{
     width: 400px;
     height: 300px;
     padding: 20px;
-    margin-top: 200px;
-    
+    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
+    
     
     
 }
@@ -149,12 +154,22 @@ footer{
 }
 
 #demo label{
-    color:black;
+    color: #390992;
     font-weight: 800;
+    text-align: right;
+    
     font-size: 17px;
     font-style: italic;
     text-transform: capitalize;
 
+}
+
+#demo input[type="text"], input[type="password"]{
+    padding: 10px;
+    width: 50%;
+    
+    border: 3px solid black;
+    border-radius: 6px;
 }
 
 #demo button{
@@ -182,11 +197,12 @@ footer{
     
 }
 
+
+
 .dark{
     padding: 15px;
     background: #35424a;
-    color: lightcoral;
-    margin-top: 10px;
+    color: rgb(30, 176, 243);
 }
 
 .light{
@@ -194,9 +210,11 @@ footer{
     background: #046f8a;
     color: rgba(13, 14, 13, 0.856);
     margin-top: 10px;
+    
 }
 
 #main h1{
+    color: darkcyan;
     font-size: 17px;
     text-transform: capitalize;
     font-family: italic;
@@ -208,6 +226,7 @@ footer{
     border: 5px solid #ccc;
     margin-bottom: 5px;
     background: #e5f0fa;
+    
 
 }
 
@@ -218,26 +237,54 @@ footer{
     text-decoration: underline;
 }
 
-#services li p1{
+#services li p{
     font-family: italic;
 
     
 }
-
-.back_img img{
-    position: absolute;
+#demo img{
+    float: right;
+    
     bottom: 100px;
-    right: 100px;
-    margin: 0px;
+    right: 0;
+
+    margin-bottom: 0px;
+    margin-right: 0px;
 }
 
+#demo{
+    overflow: auto;
+}
+
+
+#sidebar .quote img{
+    float: right;
+    
+    bottom: 0px;
+    right: 0;
+    left: 0;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+
+.quote{
+    overflow: auto;
+}
+
+
 #sidebar h1{
+    color: rgb(244, 248, 19);
     text-align: center;
     text-transform: capitalize;
     font-weight: bold;
+
     
 
 }
+#sidebar p{
+    font-family: italic;
+}
+
 
 
 
@@ -269,3 +316,58 @@ button:hover{
     cursor: pointer;
 }
 
+@media(max-width:768px){
+    header .branding,
+    header nav
+    {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    #demo,
+    #sidebar
+    {
+        display: block;
+        
+        text-align: left;
+        width: 100%;
+    }
+    #boxes .box,
+    
+   
+    #main-col
+    {
+        display: block;
+        
+        text-align: left;
+        width: 100%;
+    }
+
+    
+        
+    
+    #showcase h1{
+        font-size: 25px;
+
+    }
+    #sidebar{
+        margin-bottom: 200px;
+    }
+   
+
+
+    #boxes .box:nth-child(1){
+       
+        
+        margin-left: 180px;
+        
+    }
+    #boxes .box:nth-child(2){
+        margin-left: 180px;
+    }
+    #boxes .box:nth-child(3){
+        margin-bottom: 80px;
+        margin-left: 180px;
+    }
+
+}
